@@ -2,7 +2,7 @@ package HtmlUnit;
 
 =head1 NAME
 
-HtmlUnit - Java::Inline based wrapper of the HtmlUnit library
+HtmlUnit - Inline::Java based wrapper of the HtmlUnit library
 
 =head1 SYNOPSIS
 
@@ -32,7 +32,7 @@ so you can automate, scrape, or test javascript-required websites.
 use strict;
 use warnings;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use File::Find;
 use vars qw( $jar_path );

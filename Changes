@@ -1,5 +1,9 @@
 Revision history for Perl extension HtmlUnit.
 
+0.02 2008.12.30.14.46
+  - Fixed module description
+  - Fixed the MANIFEST to actually include the jar files
+
 0.01  Tue Dec 30 01:45:03 2008
 	- original version; created by h2xs 1.23 with options
 		-X -A HtmlUnit
