@@ -32,7 +32,7 @@ so you can automate, scrape, or test javascript-required websites.
 use strict;
 use warnings;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 use File::Find;
 use vars qw( $jar_path );
@@ -79,17 +79,20 @@ use Inline (
     commons-lang-2.4.jar
     commons-logging-1.1.1.jar
     cssparser-0.9.5.jar
-    htmlunit-2.3.jar
-    htmlunit-core-js-2.2.jar
-    nekohtml-1.9.9.jar
+    htmlunit-2.4.jar
+    htmlunit-core-js-2.4.jar
+    nekohtml-1.9.11.jar
     sac-1.3.jar
-    xalan-2.7.0.jar
+    serializer-2.7.1.jar
+    xalan-2.7.1.jar
     xercesImpl-2.8.1.jar
-    xml-apis-1.0.b2.jar
+    xml-apis-1.3.04.jar
   ),
 );
 
-=h2 $webClient = HtmlUnit->new($browser_name)
+=head1 METHODS
+
+=head2 $webClient = HtmlUnit->new($browser_name)
 
 This is just a shortcut for 
 
@@ -139,9 +142,6 @@ L<http://htmlunit.sourceforge.net/>, L<Inline::Java>
       WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
       See the License for the specific language governing permissions and
       limitations under the License.
-
-=cut
-
 
 =cut
 

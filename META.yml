@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                HtmlUnit
-version:             0.02
+version:             0.03
 abstract:            Inline::Java based wrapper of the HtmlUnit library
 license:             ~
 author:              
